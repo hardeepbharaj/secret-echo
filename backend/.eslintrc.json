@@ -1,0 +1,46 @@
+{
+  "env": {
+    "node": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:node/recommended",
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "rules": {
+    "node/exports-style": ["error", "module.exports"],
+    "node/prefer-global/buffer": ["error", "always"],
+    "node/prefer-global/console": ["error", "always"],
+    "node/prefer-global/process": ["error", "always"],
+    "node/prefer-global/url-search-params": ["error", "always"],
+    "node/prefer-global/url": ["error", "always"],
+    "node/callback-return": "error",
+    "node/handle-callback-err": "error",
+    "node/no-mixed-requires": "error",
+    "node/no-new-require": "error",
+    "node/no-path-concat": "error",
+    "node/no-process-env": "off",
+    "node/no-process-exit": "off",
+    "node/no-restricted-paths": "off",
+    "node/no-sync": "warn",
+    "no-unused-vars": ["warn"]
+  },
+  "overrides": [
+    {
+      "files": ["__tests__/**/*.js"],
+      "env": {
+        "jest": true,
+        "node": true
+      },
+      "rules": {
+        "node/no-unpublished-require": "off",
+        "node/no-missing-require": "off"
+      }
+    }
+  ]
+}
