@@ -1,4 +1,0 @@
-{"0":"I","1":"n","10":"k","11":"e","12":"n","2":"v","3":"a","4":"l","5":"i","6":"d","7":" ","8":"t","9":"o","level":"error","message":"Socket authentication error:","service":"secret-echo","timestamp":"2025-06-10 21:38:16:3816"}
-{"level":"error","message":"The user belonging to this token no longer exists.","service":"secret-echo","status":"fail","timestamp":"2025-06-10 21:38:16:3816"}
-{"0":"I","1":"n","10":"k","11":"e","12":"n","2":"v","3":"a","4":"l","5":"i","6":"d","7":" ","8":"t","9":"o","level":"error","message":"Socket authentication error:","service":"secret-echo","timestamp":"2025-06-10 21:40:14:4014"}
-{"level":"error","message":"The user belonging to this token no longer exists.","service":"secret-echo","status":"fail","timestamp":"2025-06-10 21:40:14:4014"}
