@@ -50,7 +50,7 @@ ehthumbs.db
 Thumbs.db
 
 # Backend specific
-backend/logs
+backend/src/logs
 backend/uploads
 backend/*.log
 backend/coverage
