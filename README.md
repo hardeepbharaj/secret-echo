@@ -1,3 +1,9 @@
+<h2 align="center">Demo</h2>
+
+<p align="center">
+  <img src="demo.gif" alt="Demo">
+</p>
+
 # SecretEcho 🤖
 
 A real-time AI companion messaging web application built with Next.js, Express, and MongoDB.
